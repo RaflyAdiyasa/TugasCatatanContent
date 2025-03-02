@@ -27,14 +27,14 @@ const UserList = () => {
 
   return (
     <div className="container mt-5">
-      {/* Tombol Tambah */}
+      
       <div className="mb-4">
         <Link to={`add`} className="button is-primary">
           + Tambah Baru
         </Link>
       </div>
 
-      {/* Container Grid untuk Card */}
+     
       <div className="card-container">
         {users.map((user) => (
           <div key={user.id} className="card">

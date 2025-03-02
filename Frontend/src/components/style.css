@@ -1,13 +1,13 @@
-/* Warna utama */
+
 :root {
-    --primary-color: #87ceeb; /* Biru Langit */
+    --primary-color: #87ceeb; 
     --secondary-color: #ffffff;
     --text-color: #333;
     --button-color: #4a90e2;
     --button-hover: #357ab7;
   }
   
-  /* Style untuk Container Grid */
+
   .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
   
-  /* Style untuk Card */
+
   .card {
     background: var(--secondary-color);
     border-radius: 10px;
@@ -29,7 +29,7 @@
     transform: translateY(-5px);
   }
   
-  /* Header Card */
+
   .card-header {
     background: rgb(0, 20, 199);
     color: var(--text-color);
@@ -64,7 +64,7 @@
     text-align: center;
   }
   
-  /* Konten Card */
+
   .card-content {
     background: #fff;
     padding: 15px;
@@ -74,8 +74,7 @@
     min-height: 100px;
     text-align: justify;
   }
-  
-  /* Tombol Aksi */
+
   .card-actions {
     display: flex;
     justify-content: space-between;
@@ -98,7 +97,7 @@
   
   /* ---------------- */
 
-  /* Container Form */
+ 
 .form-container {
   max-width: 500px;
   margin: 0 auto;
@@ -106,7 +105,7 @@
   text-align: center;
 }
 
-/* Judul Form */
+
 .form-title {
   font-size: 24px;
   font-weight: bold;
@@ -114,7 +113,7 @@
   margin-bottom: 15px;
 }
 
-/* Card Form */
+
 .form-card {
   background: #ffffff;
   padding: 20px;
@@ -122,20 +121,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Grup Form */
+
 .form-group {
   margin-bottom: 15px;
   text-align: left;
 }
 
-/* Label */
+
 .label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* Input Field */
+
 .input {
   width: 100%;
   padding: 10px;
@@ -145,14 +144,14 @@
 }
 
 
-/* Textarea untuk Content */
+
 .content-textarea {
   height: auto;
-  min-height: 150px; /* Pastikan textarea cukup besar */
-  resize: vertical; /* Bisa diperbesar secara manual */
+  min-height: 150px; 
+  resize: vertical; 
 }
 
-/* Tombol Aksi */
+
 .form-actions {
   margin-top: 20px;
   text-align: center;

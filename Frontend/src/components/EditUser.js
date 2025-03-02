@@ -38,7 +38,6 @@ const EditUser = () => {
     <div className="form-container">
       <h2 className="form-title">Edit Data</h2>
       <form onSubmit={updateUser} className="form-card">
-        {/* Input Tag */}
         <div className="form-group">
           <label className="label">Tag</label>
           <input
@@ -50,7 +49,6 @@ const EditUser = () => {
           />
         </div>
 
-        {/* Input Title */}
         <div className="form-group">
           <label className="label">Title</label>
           <input
@@ -62,7 +60,7 @@ const EditUser = () => {
           />
         </div>
 
-        {/* Input Content (Textarea) */}
+        
         <div className="form-group">
           <label className="label">Content</label>
           <textarea
@@ -75,7 +73,6 @@ const EditUser = () => {
           />
         </div>
 
-        {/* Tombol Aksi */}
         <div className="form-actions">
           <button type="submit" className="button is-primary">
             Perbarui
