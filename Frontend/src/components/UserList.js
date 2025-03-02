@@ -62,7 +62,7 @@ const UserList = () => {
                 onClick={() => deleteUser(user.id)}
                 className="button is-small is-danger"
               >
-                Deleted
+                Delete
               </button>
             </div>
           </div>
